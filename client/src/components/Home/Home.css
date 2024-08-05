@@ -1,0 +1,53 @@
+.card{
+    height: 180px;
+    width: 180px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right,rgb(202, 169, 169),rgb(129, 179, 151));
+    color: black;
+    transition: .4s;
+}
+
+.card:hover{
+    scale: 1.04;
+}
+.home_page{
+    width: 49%;
+}
+.activity{
+    width: 50%;
+        border-radius: 6px;
+    margin: auto;
+    padding: 10px;
+}
+
+@media screen and (max-width:908px) {
+    .home_page{
+        width: 95%;
+        margin: auto;
+    }
+    .card{
+        height: 140px;
+        width: 140px;
+    }
+    .card h2{
+        font-size: 20px;
+    }
+    .card h3{
+        font-size: 15px;
+    }
+    .activity{
+        width: 95%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:908px){
+    .card{
+        height: 130px;
+        width: 130px;
+    }
+    .home_page{
+        gap: 10px;
+        padding: 10px;
+        margin: auto;
+    }
+}

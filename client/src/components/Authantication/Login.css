@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.login_box{
+    height: fit-content;
+    width: fit-content;
+    padding: 20px 50px;
+}
+
+.title{
+    font-family: "Grand Hotel";
+}
+.line{
+    margin-top: -8px;
+    
+}
+
+@media screen and (max-width:1100px){
+    .login_box{
+        height: fit-content;
+        width: fit-content;
+    }
+}

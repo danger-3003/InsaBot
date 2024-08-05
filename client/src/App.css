@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*::selection{
+    background-color: rgb(156, 255, 164);
+    font-weight: 900;
+    color: black;
+}
+body{
+    background: linear-gradient(to bottom right, black,rgb(0, 0, 0));
+    font: "Playwrite DE Grund";
+    background-position: center;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
