@@ -200,9 +200,10 @@ def verify_token(token: str = Depends(oauth2_scheme)):
 
 def check_instagram_login(username: str, password: str):
     try:
-        chrome_options = Options()
         # Uncomment for headless mode
         # chrome_options.add_argument("--headless")
+        chrome_options = Options()
+        chrome_options.add_argument("--headless") 
         global driver
  
         driver_service = Service(ChromeDriverManager().install())
